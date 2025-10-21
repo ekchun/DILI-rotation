@@ -1,0 +1,9 @@
+,meas,spid,sc_hit,mc_hit111,direction,keep
+24,MMP,96,,1.0,down,
+25,MMP,96,,1.0,up,
+50,MMP,179,,2.0,down,
+51,MMP,179,3.0,2.0,up,
+146,MMP,487,,1.0,down,
+147,MMP,487,2.0,2.0,up,
+151,MMP,507,,2.0,down,
+152,MMP,507,2.0,2.0,up,

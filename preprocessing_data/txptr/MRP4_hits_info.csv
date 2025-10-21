@@ -1,0 +1,61 @@
+Compound,Name,Pubchem_CID,smiles,source,Target,nconc,npts,nrep,IC50_uM,pIC50,notes,flag
+164,zafirlukast,5717,COc1cc(ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12)C(=O)NS(=O)(=O)c1ccccc1C,SA200,MRP4,9,18,2,1.5975528027084,5.79654477852424,TCPL fit succeeded,"Only highest conc above baseline, active"
+9,vestipitant,9832383,C[C@@H](N(C)C(=O)N1CCNC[C@@H]1c1ccc(F)cc1C)c1cc(cc(c1)C(F)(F)F)C(F)(F)F,SA200,MRP4,3,6,2,14.0401856639371,4.8526271491656,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+12,aplaviroc,6918686,CCCCN1C(=O)[C@H](NC(=O)C12CCN(CC2)CC3=CC=C(C=C3)OC4=CC=C(C=C4)C(=O)O)[C@@H](C5CCCCC5)O,SA200,MRP4,3,6,2,12.1462133167563,4.91555909588951,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+13,gsk-2656157,53469059,Cc1cccc(CC(=O)N2CCc3c2ccc(-c2cn(C)c4ncnc(N)c24)c3F)n1,SA200,MRP4,9,18,2,0.059277061751223,7.22711333162886,TCPL fit succeeded,
+14,sb-649868,25195495,Cc1nc(C(=O)N2CCCC[C@H]2CNC(=O)c2cccc3occc23)c(s1)-c1ccc(F)cc1,SA200,MRP4,9,17,2,34.7809334525677,4.45865876655817,TCPL fit succeeded,
+15,muraglitazar,206044,COc1ccc(OC(=O)N(CC(O)=O)Cc2ccc(OCCc3nc(oc3C)-c3ccccc3)cc2)cc1,SA200,MRP4,9,17,2,0.375016268115176,6.42594989227386,TCPL fit succeeded,
+21,sb-706375,21023902,COc1cc(Br)c(cc1OC)S(=O)(=O)Nc1ccc(c(O[C@@H]2CCN(C)C2)c1)C(F)(F)F,SA200,MRP4,3,6,2,72.9656841682924,4.13688134097944,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+23,talnetant,5311424,CC[C@H](NC(=O)c1c(O)c(nc2ccccc12)-c1ccccc1)c1ccccc1,SA200,MRP4,3,6,2,4.89884520364642,5.30990628339819,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+25,gsk-2239633-a,46861584,COc1cccc2n(Cc3cccc(CNC(=O)C(C)(C)O)c3)nc(NS(=O)(=O)c3ccc(Cl)s3)c12,SA200,MRP4,9,18,2,34.098669485839,4.46726256664479,TCPL fit succeeded,
+26,gsk-626616,135416229,Clc1cccc(Cl)c1\N=C1\NC(=O)\C(S1)=C\c1ccc2nccnc2c1,SA200,MRP4,9,17,2,0.354298685759781,6.45063045864152,TCPL fit succeeded,
+29,gsk-1059615,23582824,O=C1NC(=O)\C(S1)=C\c1ccc2nccc(-c3ccncc3)c2c1,SA200,MRP4,9,17,2,0.169542720761,6.77072085172013,TCPL fit succeeded,
+42,schembl2953163,46846503,CN([C@@H](CN1CCCC1)c1ccc(cc1)-c1cccc(c1)C(N)=O)C(=O)CN1C(=O)COc2cc(Cl)c(Cl)cc12,SA200,MRP4,9,17,2,16.9427517730581,4.77101605192743,TCPL fit succeeded,
+43,pranlukast,4887,O=C(Nc1cccc2c1oc(cc2=O)-c1nnn[nH]1)c1ccc(OCCCCc2ccccc2)cc1,SA200,MRP4,9,18,2,0.0026361625699414,8.5790278106746,TCPL fit succeeded,
+45,schembl6603418,11591924,COc1cc2CCN(C(=O)c3ccc(cc3)-c3ccc(cc3C)-c3noc(C)n3)c2cc1N1C[C@H](C)N[C@H](C)C1,SA200,MRP4,9,18,2,1.6704981524686,5.777154000345,TCPL fit succeeded,"Only one conc above baseline, active"
+49,gw-575695x,10416272,FC(F)(F)c1ccc(=O)n(CC(=O)NCc2cc3cc(ccc3o2)C(=O)N2CCC(CC2)N2C(=O)OCc3ccccc23)c1,SA200,MRP4,3,6,2,11.7865008402844,4.92861510850216,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+52,gw-493838,9810927,CC(C)(C)c1nnc(o1)[C@H]1O[C@H]([C@H](O)[C@@H]1O)n1cnc2c(Nc3ccc(Cl)cc3F)ncnc12,SA200,MRP4,9,18,2,36.9413635075271,4.43248707876945,TCPL fit succeeded,
+53,gw-848687-x,10238338,OC(=O)c1cccc(n1)C1=C(CCC1)c1cc(Cl)ccc1OCc1ccc(F)cc1F,SA200,MRP4,9,18,2,25.7449602937522,4.58930777364516,TCPL fit succeeded,
+54,relacatib,6918602,CC(C)C[C@H](NC(=O)c1cc2ccccc2o1)C(=O)N[C@H]1CC[C@@H](C)N(CC1=O)S(=O)(=O)c1ccccn1,SA200,MRP4,3,6,2,72.8333455772935,4.13766974040429,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+57,sb-332235,9887803,NS(=O)(=O)c1c(Cl)ccc(NC(=O)Nc2cccc(Cl)c2Cl)c1O,SA200,MRP4,3,6,2,11.1835152519375,4.95142166563015,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+62,gsk-269984a,23696973,[Na+].[O-]C(=O)c1cccc(Cc2cc(Cl)ccc2OCc2ccc(Cl)cc2F)n1,SA200,MRP4,9,18,2,0.163130330006514,6.78746528525112,TCPL fit succeeded,
+71,sb-657510,11272107,COc1cc(Br)c(cc1OC)S(=O)(=O)Nc1ccc(Cl)c(O[C@@H]2CCN(C)C2)c1,SA200,MRP4,3,6,2,23.8785396061184,4.62199223786087,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+73,gi-181771-x,51353551,CC(C)N(C(=O)CN1c2ccccc2N(c2ccccc2)C(=O)[C@@H](NC(=O)Nc2cccc(c2)C(O)=O)C1=O)c1ccccc1,SA200,MRP4,9,18,2,0.898374436116609,6.04654261472907,TCPL fit succeeded,"Only highest conc above baseline, active"
+84,pimobendan,4823,COc1ccc(cc1)-c1nc2cc(ccc2[nH]1)C1=NNC(=O)CC1C,SA200,MRP4,3,6,2,13.3276483583805,4.87524647437288,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+85,gsk-2606414,53469448,Cn1cc(-c2ccc3N(CCc3c2)C(=O)Cc2cccc(c2)C(F)(F)F)c2c(N)ncnc12,SA200,MRP4,9,18,2,6.41691412952996,5.19267377235301,TCPL fit succeeded,
+92,gsk-2814338,71236597,CN1CCCn2c1cc(OCc1cc(F)c(Oc3ccc(nc3)C(F)(F)F)c(F)c1)nc2=O,SA200,MRP4,9,18,2,28.7951647278866,4.54068043266776,TCPL fit succeeded,"Only highest conc above baseline, active"
+94,gsk-356278,10252640,CCn1ncc2c(NC3CCOCC3)c(cnc12)-c1nnc(Cc2sc(C)nc2C)o1,SA200,MRP4,9,18,2,1.81177680338141,5.74189530502029,TCPL fit succeeded,
+103,schembl4463178,9869676,OCC(CO)Nc1nc(-c2ccc(F)cc2F)c2ccc(=O)n(-c3c(F)cc(F)cc3F)c2n1,SA200,MRP4,9,18,2,1.42372999985612,5.84657236371224,TCPL fit succeeded,"Only highest conc above baseline, active"
+108,gsk-2018682,24988201,CC(C)Oc1ncc(cc1Cl)-c1nc(no1)-c1cccc2n(CCCC(O)=O)ccc12,SA200,MRP4,9,18,2,4.43503730192457,5.35310272308099,TCPL fit succeeded,"Only one conc above baseline, active"
+112,quinidine,441074,COc1ccc2nccc([C@H](O)[C@H]3C[C@@H]4CCN3C[C@@H]4C=C)c2c1,SA200,MRP4,3,6,2,27.414191968216,4.56202455039756,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+115,gw-409544,446642,C\C(N[C@@H](Cc1ccc(OCCc2nc(oc2C)-c2ccccc2)cc1)C(O)=O)=C\C(=O)c1ccccc1,SA200,MRP4,9,18,2,6.07500472026854,5.21645338028343,TCPL fit succeeded,"Only highest conc above baseline, active"
+116,gsk-461364,15983966,C[C@@H](Oc1cc(sc1C(N)=O)-n1cnc2ccc(CN3CCN(C)CC3)cc12)c1ccccc1C(F)(F)F,SA200,MRP4,9,18,2,5.88486536100366,5.23026346886847,TCPL fit succeeded,
+124,gw-788388,10202642,O=C(NC1CCOCC1)c1ccc(cc1)-c1cc(ccn1)-c1c[nH]nc1-c1ccccn1,SA200,MRP4,3,6,2,21.3294066272166,4.67102122622474,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+125,gw-2974,6603857,CN(C)c1cc2c(Nc3ccc4n(Cc5ccccc5)ncc4c3)ncnc2cn1,SA200,MRP4,9,18,2,0.0375988775519078,7.42482511997364,TCPL fit succeeded,
+127,gsk-932121,23651142,Cc1[nH]c(CO)c(-c2ccc(Oc3ccc(OC(F)(F)F)cc3)cc2)c(=O)c1Cl,SA200,MRP4,9,18,2,7.75845040874344,5.11022501149108,TCPL fit succeeded,"Only highest conc above baseline, active"
+146,gsk-894281,24803511,COc1ccc(cc1NS(=O)(=O)c1ccc(-c2ccc(C)o2)c(F)c1)N1C[C@H](C)N[C@H](C)C1,SA200,MRP4,3,6,2,25.2086293348875,4.59845076751189,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+151,fenofibrate,3339,CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl,SA200,MRP4,3,6,2,70.2422168341926,4.1534017906147,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+152,gsk-1004723,17747460,Clc1ccc(Cc2nn(C[C@H]3CCCN3CCCCc3ccc(OCCCN4CCCCCC4)cc3)c(=O)c3ccccc23)cc1,SA200,MRP4,9,18,2,4.05410153152411,5.39210537897096,TCPL fit succeeded,"Only highest conc above baseline, active"
+154,gv-196771,6913185,OC(=O)c1[nH]c2cc(Cl)cc(Cl)c2c1\C=C1/CCN(C1=O)c1ccccc1,SA200,MRP4,9,18,2,1.36784268485508,5.86396384781181,TCPL fit succeeded,"Only one conc above baseline, active"
+158,gw-328267,9869857,CCn1nnc(n1)[C@H]1O[C@H]([C@H](O)[C@@H]1O)n1cnc2c(N)nc(N[C@H](CO)Cc3ccccc3)nc12,SA200,MRP4,3,6,2,16.5381837908951,4.7815121860109,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+161,troglitazone,5591,CC1=C(C2=C(CCC(O2)(C)COC3=CC=C(C=C3)CC4C(=O)NC(=O)S4)C(=C1O)C)C,SA200,MRP4,3,12,4,17.1613699191753,4.76544804722206,TCPL fit succeeded,
+162,awd-12-281,6918428,Oc1ccc2n(Cc3ccc(F)cc3)cc(C(=O)C(=O)Nc3c(Cl)cncc3Cl)c2c1,SA200,MRP4,9,18,2,4.08915462255042,5.38836646722732,TCPL fit succeeded,
+172,bepridil,2351,CC(C)COCC(CN(Cc1ccccc1)c1ccccc1)N1CCCC1,SA200,MRP4,9,18,2,4.93742587462108,5.30649941136238,TCPL fit succeeded,
+175,atorvastatin,60823,CC(C)c1c(C(=O)Nc2ccccc2)c(c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(O)=O)-c1ccccc1,SA200,MRP4,3,6,2,71.2615567294551,4.14714469459197,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+186,nifedipine,4485,COC(=O)C1=C(C)NC(C)=C(C1c1ccccc1N(=O)=O)C(=O)OC,SA200,MRP4,3,6,2,62.3626556987166,4.20507539876318,TCPL fit succeeded,Hit-call potentially confounded by overfitting
+187,gw-501516,9803963,Cc1nc(sc1CSc1ccc(OCC(O)=O)c(C)c1)-c1ccc(cc1)C(F)(F)F,SA200,MRP4,9,18,2,1.9503029586543,5.70989792040567,TCPL fit succeeded,"Only highest conc above baseline, active"
+190,gsk-376501,24946920,COCCOC1=CC(OCCOC)=CC(CN2C3=CC=CC=C3C(=C2C(O)=O)C2=CC=C(C=C2)C(C)(C)C)=C1,SA200,MRP4,9,18,2,14.4319329350812,4.84067549795567,TCPL fit succeeded,"Only highest conc above baseline, active"
+191,sodelglitazar,9805950,Cc1nc(sc1CSc1ccc(OC(C)(C)C(O)=O)c(C)c1)-c1ccc(cc1F)C(F)(F)F,SA200,MRP4,9,18,2,5.60338896544434,5.2515492294541,TCPL fit succeeded,
+195,sb-705498,9910486,FC(F)(F)c1ccc(nc1)N1CC[C@H](C1)NC(=O)Nc1ccccc1Br,SA200,MRP4,9,18,2,2.9677354187902,5.52757482013202,TCPL fit succeeded,
+201,gavestinel,16759177,OC(=O)c1[nH]c2cc(Cl)cc(Cl)c2c1\C=C\C(=O)Nc1ccccc1,SA200,MRP4,9,18,2,0.104641891898923,6.9802944170145,TCPL fit succeeded,
+205,fluprostenol,5311100,O[C@@H](COc1cccc(c1)C(F)(F)F)\C=C\[C@H]1[C@H](O)C[C@H](O)[C@@H]1C\C=C/CCCC(O)=O,SA200,MRP4,9,18,2,0.0408200554621553,7.38912640954421,TCPL fit succeeded,"Only highest conc above baseline, active"
+142,schembl4622059,10120230,CC(C)C[C@H](NC(=O)c1oc2cccnc2c1C)C(=O)N[C@H]1CC[C@@H](C)N(CC1=O)S(=O)(=O)c1ccccn1,SA200,MRP4,3,6,2,77.6015494994832,4.11012960693309,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+229,Hydrocortisone butyrate,3642,CCCC(=O)OC1(CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC12C)C(=O)CO,New,MRP4,5,10,2,8.41325804722702,5.07503579041779,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+243,Spironolactone,5833,CC(=O)SC1CC2=CC(=O)CCC2(C)C3CCC4(C)C(CCC45CCC(=O)O5)C13,New,MRP4,5,10,2,69.592527859636,4.15743738802644,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+254,CLOXACILLIN SODIUM,23675320,CC1=C(C(=NO1)C2=CC=CC=C2Cl)C(=O)N[C@H]3[C@@H]4N(C3=O)[C@H](C(S4)(C)C)C(=O)[O-].[Na+],New,MRP4,5,10,2,5.041985223454,5.29739843144454,TCPL fit succeeded,"Only highest conc above baseline, active"
+258,Digoxin,30322,C[C@H]1O[C@H](C[C@H](O)[C@@H]1O)O[C@H]1[C@@H](O)C[C@H](O[C@H]2[C@@H](O)C[C@H](O[C@H]3CC[C@@]4(C)[C@H](CC[C@@H]5[C@@H]4C[C@@H](O)[C@]4(C)C(CC[C@]54O)C4=CC(=O)OC4)C3)O[C@@H]2C)O[C@@H]1C,New,MRP4,5,10,2,2.59531000845392,5.58581075846311,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+386,Ampicillin,6249,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(O)=O,New,MRP4,5,10,2,5.19559194941863,5.28436496481122,TCPL fit succeeded,
+439,Ibuprofen,3672,CC(C)Cc1ccc(cc1)C(C)C(O)=O,New,MRP4,5,10,2,5.23280723671217,5.28126526326801,TCPL fit succeeded,Borderline active;Hit-call potentially confounded by overfitting
+584,Balsalazide,54585,OC(=O)CCNC(=O)c1ccc(cc1)\N=N\c1ccc(O)c(c1)C(O)=O,New,MRP4,5,10,2,0.0311011573908827,7.50722344894355,TCPL fit succeeded,
+618,candesartan,2540,CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(cc1)-c1ccccc1-c1nnn[nH]1,New,MRP4,5,10,2,0.927377371203472,6.03274350546562,TCPL fit succeeded,"Only one conc above baseline, active"
+685,Ketoprofen,3825,CC(C(O)=O)c1cccc(c1)C(=O)c1ccccc1,New,MRP4,5,10,2,4.38290215966599,5.35823822407372,TCPL fit succeeded,"Only highest conc above baseline, active"

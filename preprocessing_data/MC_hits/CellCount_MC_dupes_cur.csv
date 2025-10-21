@@ -1,0 +1,11 @@
+,meas,spid,direction,sc_hit,mc_hit,keep
+232,CellCount,96,up,,1,n
+138,CellCount,96,down,,2,y
+229,CellCount,129,up,,1,n
+200,CellCount,129,down,,2,y
+228,CellCount,171,up,,1,n
+213,CellCount,171,down,,4,y
+230,CellCount,203,up,,1,n
+194,CellCount,203,down,,1,y
+125,CellCount,578,up,1,,n
+73,CellCount,578,down,1,3,y
