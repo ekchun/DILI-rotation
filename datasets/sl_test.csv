@@ -1,4 +1,0 @@
-bucket_name,dataset_key,dataset_name,response_cols,collection,scaffold_split_uuid
-public,/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_cur2.csv,ROS,active,SUP,c5e78a93-b3e6-41e0-9d15-3208c7809db5
-public,/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_cur2.csv,ROS,active,SUP,0a722b6f-f9af-4321-a7b6-7002830d6282
-public,/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_cur2.csv,ROS,active,SUP,10bcfc3d-7072-48dc-a3dd-20e9ebf6e34d

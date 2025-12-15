@@ -1,5 +1,9 @@
 # DILI
 
+## rotation fall 2025
+- most of this is from Amanda's repo 
+- may have additional messy code specific to adding additional ROS and MMP data and training ST models
+
 ## `preprocessing_data`
 In this folder is a messy collection of raw and processed data. I performed manual curation and inspection of curves to further filter bad curves (e.g. curves that had a large hill slope or only one concentration above the 50% mark). The `validate_datasets.ipynb` notebook contains the code used to filter and visualize the data.
 
