@@ -1,0 +1,159 @@
+[
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "0eca29e6b93c84c0b17a835f3578485e",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/DILI_cell_health_matrix.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "./DILI_models/DILI_models"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "DILIst_Classification"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "6dbdbc3b-0a10-4906-af7b-21c6a61cf73a",
+        "prediction_results": {
+            "accuracy_score": 0.6350540216086434,
+            "bal_accuracy": 0.598370393481574,
+            "confusion_matrix": [
+                [
+                    [
+                        138,
+                        196
+                    ],
+                    [
+                        108,
+                        391
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.6565593233242398,
+            "kappa": 0.2057011655772054,
+            "matthews_cc": 0.21136413969575096,
+            "npv": 0.5609756097560976,
+            "num_compounds": 833,
+            "prc_auc_score": 0.6987005951800221,
+            "precision": 0.666098807495741,
+            "recall_score": 0.7835671342685371,
+            "roc_auc_score": 0.6355765423061692
+        },
+        "subset": "train",
+        "time_run": 1767383408.222247
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "0eca29e6b93c84c0b17a835f3578485e",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/DILI_cell_health_matrix.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "./DILI_models/DILI_models"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "DILIst_Classification"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "6dbdbc3b-0a10-4906-af7b-21c6a61cf73a",
+        "prediction_results": {
+            "accuracy_score": 0.6089385474860335,
+            "bal_accuracy": 0.5446327683615819,
+            "confusion_matrix": [
+                [
+                    [
+                        21,
+                        38
+                    ],
+                    [
+                        32,
+                        88
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.6910635841194941,
+            "kappa": 0.0916340437871539,
+            "matthews_cc": 0.09191306361018642,
+            "model_choice_score": 0.6046610169491525,
+            "npv": 0.39622641509433965,
+            "num_compounds": 179,
+            "prc_auc_score": 0.7390649465274233,
+            "precision": 0.6984126984126984,
+            "recall_score": 0.7333333333333333,
+            "roc_auc_score": 0.6046610169491525
+        },
+        "subset": "valid",
+        "time_run": 1767383408.222247
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "0eca29e6b93c84c0b17a835f3578485e",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/DILI_cell_health_matrix.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "./DILI_models/DILI_models"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "DILIst_Classification"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "6dbdbc3b-0a10-4906-af7b-21c6a61cf73a",
+        "prediction_results": {
+            "accuracy_score": 0.5642458100558659,
+            "bal_accuracy": 0.5420286152273889,
+            "confusion_matrix": [
+                [
+                    [
+                        30,
+                        46
+                    ],
+                    [
+                        32,
+                        71
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.7153616145177905,
+            "kappa": 0.08613692891739755,
+            "matthews_cc": 0.08731959435119348,
+            "npv": 0.4838709677419355,
+            "num_compounds": 179,
+            "prc_auc_score": 0.6274637506431127,
+            "precision": 0.6068376068376068,
+            "recall_score": 0.6893203883495146,
+            "roc_auc_score": 0.5470746039856924
+        },
+        "subset": "test",
+        "time_run": 1767383408.222247
+    }
+]

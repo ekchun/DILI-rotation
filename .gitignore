@@ -174,3 +174,7 @@ AMPL_models/MT_models/*
 AMPL_models/ST_models2/*
 AMPL_models/ROS_up_class_models/*
 datasets/results/*
+AMPL_models/best_cluster_models/*
+AMPL_models/DILI_models/*
+AMPL_models/DILI_models2/*
+AMPL_models/MMP_models/*
