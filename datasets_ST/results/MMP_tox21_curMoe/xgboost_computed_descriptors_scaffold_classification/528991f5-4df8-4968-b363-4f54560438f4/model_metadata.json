@@ -1,0 +1,241 @@
+{
+    "descriptor_specific": {
+        "descriptor_bucket": "public",
+        "descriptor_key": null,
+        "descriptor_type": "moe"
+    },
+    "model_parameters": {
+        "ampl_version": "1.7.0",
+        "class_number": 2,
+        "featurizer": "computed_descriptors",
+        "hyperparam_uuid": null,
+        "model_bucket": "public",
+        "model_choice_score_type": "mcc",
+        "model_type": "xgboost",
+        "num_model_tasks": 1,
+        "prediction_type": "classification",
+        "sampling_k_neighbors": 5,
+        "sampling_ratio": "auto",
+        "save_results": false,
+        "system": "twintron-blue",
+        "time_generated": 1763757716.573659,
+        "transformer_bucket": "",
+        "transformer_key": "/Users/echun/repos/DILI-rotation/datasets/results/MMP_tox21_curMoe/xgboost_computed_descriptors_scaffold_classification/528991f5-4df8-4968-b363-4f54560438f4/transformers.pkl",
+        "transformer_oid": "",
+        "transformers": true,
+        "uncertainty": false
+    },
+    "model_uuid": "528991f5-4df8-4968-b363-4f54560438f4",
+    "seed": 1152457039,
+    "splitting_parameters": {
+        "base_splitter": "scaffold",
+        "butina_cutoff": 0.6,
+        "cutoff_date": null,
+        "date_col": null,
+        "mtss_num_generations": 20,
+        "mtss_num_pop": 100,
+        "mtss_num_super_scaffolds": 40,
+        "mtss_response_distr_weight": 1.0,
+        "mtss_split_fraction_weight": 1.0,
+        "mtss_train_test_dist_weight": 1.0,
+        "mtss_train_valid_dist_weight": 1.0,
+        "num_folds": 5,
+        "previously_split": true,
+        "split_strategy": "train_valid_test",
+        "split_test_frac": 0.15,
+        "split_uuid": "409cb580-2733-4971-9060-b2ba02599fb6",
+        "split_valid_frac": 0.15,
+        "splitter": "scaffold"
+    },
+    "time_built": 1763757716.5743191,
+    "training_dataset": {
+        "bucket": "public",
+        "dataset_hash": "43ee8126f990a7ca4269524c111c7daf",
+        "dataset_key": "/Users/echun/repos/DILI-rotation/datasets/training_data/MMP_tox21_curMoe.csv",
+        "dataset_metadata": {},
+        "dataset_oid": null,
+        "datastore": false,
+        "external_export_parameters": {
+            "result_dir": "/Users/echun/repos/DILI-rotation/datasets/results"
+        },
+        "feature_transform_type": "normalization",
+        "id_col": "compound_id",
+        "production": false,
+        "response_cols": [
+            "active"
+        ],
+        "response_transform_type": "normalization",
+        "smiles_col": "base_rdkit_smiles",
+        "weight_transform_type": "balancing"
+    },
+    "training_metrics": [
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "43ee8126f990a7ca4269524c111c7daf",
+                "dataset_key": "/Users/echun/repos/DILI-rotation/datasets/training_data/MMP_tox21_curMoe.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "/Users/echun/repos/DILI-rotation/datasets/results"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "528991f5-4df8-4968-b363-4f54560438f4",
+            "prediction_results": {
+                "accuracy_score": 0.9966237602869804,
+                "bal_accuracy": 0.9980690321023413,
+                "confusion_matrix": [
+                    [
+                        [
+                            4127,
+                            16
+                        ],
+                        [
+                            0,
+                            596
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.03939151451390723,
+                "kappa": 0.9848206521129851,
+                "matthews_cc": 0.9849341292679002,
+                "npv": 1.0,
+                "num_compounds": 4739,
+                "prc_auc_score": 0.9999971895270536,
+                "precision": 0.9738562091503268,
+                "recall_score": 1.0,
+                "roc_auc_score": 0.9999997975075611
+            },
+            "subset": "train",
+            "time_run": 1763757716.5887098
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "43ee8126f990a7ca4269524c111c7daf",
+                "dataset_key": "/Users/echun/repos/DILI-rotation/datasets/training_data/MMP_tox21_curMoe.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "/Users/echun/repos/DILI-rotation/datasets/results"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "528991f5-4df8-4968-b363-4f54560438f4",
+            "prediction_results": {
+                "accuracy_score": 0.8179133858267716,
+                "bal_accuracy": 0.7412045834053089,
+                "confusion_matrix": [
+                    [
+                        [
+                            714,
+                            113
+                        ],
+                        [
+                            72,
+                            117
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.4037509798631318,
+                "kappa": 0.44515946204437307,
+                "matthews_cc": 0.4485635886253577,
+                "model_choice_score": 0.4485635886253577,
+                "npv": 0.9083969465648855,
+                "num_compounds": 1016,
+                "prc_auc_score": 0.5900984752052654,
+                "precision": 0.508695652173913,
+                "recall_score": 0.6190476190476191,
+                "roc_auc_score": 0.8355181922291959
+            },
+            "subset": "valid",
+            "time_run": 1763757716.588711
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "43ee8126f990a7ca4269524c111c7daf",
+                "dataset_key": "/Users/echun/repos/DILI-rotation/datasets/training_data/MMP_tox21_curMoe.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "/Users/echun/repos/DILI-rotation/datasets/results"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "528991f5-4df8-4968-b363-4f54560438f4",
+            "prediction_results": {
+                "accuracy_score": 0.7844488188976378,
+                "bal_accuracy": 0.7027488445885355,
+                "confusion_matrix": [
+                    [
+                        [
+                            675,
+                            123
+                        ],
+                        [
+                            96,
+                            122
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.472496598573644,
+                "kappa": 0.3880326083369088,
+                "matthews_cc": 0.38914176547818236,
+                "npv": 0.8754863813229572,
+                "num_compounds": 1016,
+                "prc_auc_score": 0.5195969856681795,
+                "precision": 0.49795918367346936,
+                "recall_score": 0.5596330275229358,
+                "roc_auc_score": 0.7969407463613163
+            },
+            "subset": "test",
+            "time_run": 1763757716.588711
+        }
+    ],
+    "xgb_specific": {
+        "xgb_alpha": 0.0,
+        "xgb_colsample_bytree": 1.0,
+        "xgb_gamma": 0.0,
+        "xgb_lambda": 1.0,
+        "xgb_learning_rate": 0.1,
+        "xgb_max_depth": 6,
+        "xgb_min_child_weight": 1.0,
+        "xgb_n_estimators": 100,
+        "xgb_subsample": 1.0
+    }
+}

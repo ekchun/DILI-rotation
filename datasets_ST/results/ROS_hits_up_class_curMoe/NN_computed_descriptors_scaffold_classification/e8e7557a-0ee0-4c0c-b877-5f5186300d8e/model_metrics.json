@@ -1,0 +1,159 @@
+[
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "9246b6953d1b8fb2399b82b8cb2664d0",
+            "dataset_key": "/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_curMoe.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "/Users/echun/repos/DILI/datasets/results"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "e8e7557a-0ee0-4c0c-b877-5f5186300d8e",
+        "prediction_results": {
+            "accuracy_score": 0.7150537634408602,
+            "bal_accuracy": 0.6642817059483725,
+            "confusion_matrix": [
+                [
+                    [
+                        311,
+                        85
+                    ],
+                    [
+                        74,
+                        88
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.5705915219393103,
+            "kappa": 0.3221014991060377,
+            "matthews_cc": 0.32245631278907716,
+            "npv": 0.8077922077922078,
+            "num_compounds": 561,
+            "prc_auc_score": 0.5281379004718523,
+            "precision": 0.5086705202312138,
+            "recall_score": 0.5432098765432098,
+            "roc_auc_score": 0.7229236812570146
+        },
+        "subset": "train",
+        "time_run": 1760734662.334642
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "9246b6953d1b8fb2399b82b8cb2664d0",
+            "dataset_key": "/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_curMoe.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "/Users/echun/repos/DILI/datasets/results"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "e8e7557a-0ee0-4c0c-b877-5f5186300d8e",
+        "prediction_results": {
+            "accuracy_score": 0.6416666666666667,
+            "bal_accuracy": 0.6221218303701544,
+            "confusion_matrix": [
+                [
+                    [
+                        52,
+                        21
+                    ],
+                    [
+                        22,
+                        25
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.6649628446976155,
+            "kappa": 0.24517261556465775,
+            "matthews_cc": 0.24521039893827373,
+            "model_choice_score": 0.24521039893827373,
+            "npv": 0.7027027027027027,
+            "num_compounds": 120,
+            "prc_auc_score": 0.5466899695088239,
+            "precision": 0.5434782608695652,
+            "recall_score": 0.5319148936170213,
+            "roc_auc_score": 0.6272223841445643
+        },
+        "subset": "valid",
+        "time_run": 1760734662.334643
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "9246b6953d1b8fb2399b82b8cb2664d0",
+            "dataset_key": "/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_curMoe.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "/Users/echun/repos/DILI/datasets/results"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "e8e7557a-0ee0-4c0c-b877-5f5186300d8e",
+        "prediction_results": {
+            "accuracy_score": 0.5785123966942148,
+            "bal_accuracy": 0.5935804701627487,
+            "confusion_matrix": [
+                [
+                    [
+                        43,
+                        36
+                    ],
+                    [
+                        15,
+                        27
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.6863966710248688,
+            "kappa": 0.16754350465398637,
+            "matthews_cc": 0.17834836726076184,
+            "npv": 0.7413793103448276,
+            "num_compounds": 121,
+            "prc_auc_score": 0.39707089559307185,
+            "precision": 0.42857142857142855,
+            "recall_score": 0.6428571428571429,
+            "roc_auc_score": 0.5937311633514165
+        },
+        "subset": "test",
+        "time_run": 1760734662.334643
+    }
+]

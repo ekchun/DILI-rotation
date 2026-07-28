@@ -1,0 +1,235 @@
+{
+    "descriptor_specific": {
+        "descriptor_bucket": "public",
+        "descriptor_key": null,
+        "descriptor_type": "rdkit_raw"
+    },
+    "model_parameters": {
+        "ampl_version": "1.7.0",
+        "class_number": 2,
+        "featurizer": "computed_descriptors",
+        "hyperparam_uuid": null,
+        "model_bucket": "public",
+        "model_choice_score_type": "mcc",
+        "model_type": "RF",
+        "num_model_tasks": 1,
+        "prediction_type": "classification",
+        "sampling_k_neighbors": 5,
+        "sampling_ratio": "auto",
+        "save_results": false,
+        "system": "twintron-blue",
+        "time_generated": 1760671113.392517,
+        "transformer_bucket": "",
+        "transformer_key": "/Users/echun/repos/DILI/datasets/results/ROS_hits_up_class_curR/RF_computed_descriptors_scaffold_classification/a318985c-461b-45c2-af9d-ff1518fa089e/transformers.pkl",
+        "transformer_oid": "",
+        "transformers": true,
+        "uncertainty": true
+    },
+    "model_uuid": "a318985c-461b-45c2-af9d-ff1518fa089e",
+    "rf_specific": {
+        "rf_estimators": 500,
+        "rf_max_depth": null,
+        "rf_max_features": 32
+    },
+    "seed": 2828998124,
+    "splitting_parameters": {
+        "base_splitter": "scaffold",
+        "butina_cutoff": 0.6,
+        "cutoff_date": null,
+        "date_col": null,
+        "mtss_num_generations": 20,
+        "mtss_num_pop": 100,
+        "mtss_num_super_scaffolds": 40,
+        "mtss_response_distr_weight": 1.0,
+        "mtss_split_fraction_weight": 1.0,
+        "mtss_train_test_dist_weight": 1.0,
+        "mtss_train_valid_dist_weight": 1.0,
+        "num_folds": 5,
+        "previously_split": true,
+        "split_strategy": "train_valid_test",
+        "split_test_frac": 0.15,
+        "split_uuid": "c5e78a93-b3e6-41e0-9d15-3208c7809db5",
+        "split_valid_frac": 0.15,
+        "splitter": "scaffold"
+    },
+    "time_built": 1760671113.3932931,
+    "training_dataset": {
+        "bucket": "public",
+        "dataset_hash": "013ffacbda38d295ce9d4137d5808a9e",
+        "dataset_key": "/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_curR.csv",
+        "dataset_metadata": {},
+        "dataset_oid": null,
+        "datastore": false,
+        "external_export_parameters": {
+            "result_dir": "/Users/echun/repos/DILI/datasets/results"
+        },
+        "feature_transform_type": "normalization",
+        "id_col": "compound_id",
+        "production": false,
+        "response_cols": [
+            "active"
+        ],
+        "response_transform_type": "normalization",
+        "smiles_col": "base_rdkit_smiles",
+        "weight_transform_type": "balancing"
+    },
+    "training_metrics": [
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "013ffacbda38d295ce9d4137d5808a9e",
+                "dataset_key": "/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_curR.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "/Users/echun/repos/DILI/datasets/results"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "a318985c-461b-45c2-af9d-ff1518fa089e",
+            "prediction_results": {
+                "accuracy_score": 1.0,
+                "bal_accuracy": 1.0,
+                "confusion_matrix": [
+                    [
+                        [
+                            396,
+                            0
+                        ],
+                        [
+                            0,
+                            162
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.15264626441471957,
+                "kappa": 1.0,
+                "matthews_cc": 1.0,
+                "npv": 1.0,
+                "num_compounds": 561,
+                "prc_auc_score": 1.0000000000000002,
+                "precision": 1.0,
+                "recall_score": 1.0,
+                "roc_auc_score": 0.9999999999999999
+            },
+            "subset": "train",
+            "time_run": 1760671113.3993669
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "013ffacbda38d295ce9d4137d5808a9e",
+                "dataset_key": "/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_curR.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "/Users/echun/repos/DILI/datasets/results"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "a318985c-461b-45c2-af9d-ff1518fa089e",
+            "prediction_results": {
+                "accuracy_score": 0.6416666666666667,
+                "bal_accuracy": 0.5577091227047508,
+                "confusion_matrix": [
+                    [
+                        [
+                            69,
+                            4
+                        ],
+                        [
+                            39,
+                            8
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.6802815466220792,
+                "kappa": 0.13306451612903214,
+                "matthews_cc": 0.1877942653473415,
+                "model_choice_score": 0.1877942653473415,
+                "npv": 0.6388888888888888,
+                "num_compounds": 120,
+                "prc_auc_score": 0.5657729268651304,
+                "precision": 0.6666666666666666,
+                "recall_score": 0.1702127659574468,
+                "roc_auc_score": 0.6334887787816964
+            },
+            "subset": "valid",
+            "time_run": 1760671113.3993669
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "013ffacbda38d295ce9d4137d5808a9e",
+                "dataset_key": "/Users/echun/repos/DILI/datasets/training_data/ROS_hits_up_class_curR.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "/Users/echun/repos/DILI/datasets/results"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "a318985c-461b-45c2-af9d-ff1518fa089e",
+            "prediction_results": {
+                "accuracy_score": 0.6776859504132231,
+                "bal_accuracy": 0.5580168776371308,
+                "confusion_matrix": [
+                    [
+                        [
+                            75,
+                            4
+                        ],
+                        [
+                            35,
+                            7
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.6482813049455705,
+                "kappa": 0.1402805611222444,
+                "matthews_cc": 0.19214533880276327,
+                "npv": 0.6818181818181818,
+                "num_compounds": 121,
+                "prc_auc_score": 0.4609735704053376,
+                "precision": 0.6363636363636364,
+                "recall_score": 0.16666666666666666,
+                "roc_auc_score": 0.6053345388788427
+            },
+            "subset": "test",
+            "time_run": 1760671113.399368
+        }
+    ]
+}

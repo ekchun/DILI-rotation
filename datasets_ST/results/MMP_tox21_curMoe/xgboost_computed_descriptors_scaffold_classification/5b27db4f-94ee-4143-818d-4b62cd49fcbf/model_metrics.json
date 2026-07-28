@@ -1,0 +1,159 @@
+[
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "43ee8126f990a7ca4269524c111c7daf",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/datasets/training_data/MMP_tox21_curMoe.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "/Users/echun/repos/DILI-rotation/datasets/results"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": null
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "5b27db4f-94ee-4143-818d-4b62cd49fcbf",
+        "prediction_results": {
+            "accuracy_score": 0.9981008651614265,
+            "bal_accuracy": 0.9931679051104232,
+            "confusion_matrix": [
+                [
+                    [
+                        4142,
+                        1
+                    ],
+                    [
+                        8,
+                        588
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.03806421867879337,
+            "kappa": 0.9913198539490279,
+            "matthews_cc": 0.9913424464225152,
+            "npv": 0.9980722891566265,
+            "num_compounds": 4739,
+            "prc_auc_score": 0.9999175782223304,
+            "precision": 0.99830220713073,
+            "recall_score": 0.9865771812080537,
+            "roc_auc_score": 0.9999884579309809
+        },
+        "subset": "train",
+        "time_run": 1763757535.532037
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "43ee8126f990a7ca4269524c111c7daf",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/datasets/training_data/MMP_tox21_curMoe.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "/Users/echun/repos/DILI-rotation/datasets/results"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": null
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "5b27db4f-94ee-4143-818d-4b62cd49fcbf",
+        "prediction_results": {
+            "accuracy_score": 0.8346456692913385,
+            "bal_accuracy": 0.6718872958292548,
+            "confusion_matrix": [
+                [
+                    [
+                        770,
+                        57
+                    ],
+                    [
+                        111,
+                        78
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.37913429666053416,
+            "kappa": 0.3863543217066805,
+            "matthews_cc": 0.3940965139824194,
+            "model_choice_score": 0.5628512551120722,
+            "npv": 0.8740068104426788,
+            "num_compounds": 1016,
+            "prc_auc_score": 0.5628512551120722,
+            "precision": 0.5777777777777777,
+            "recall_score": 0.4126984126984127,
+            "roc_auc_score": 0.8280839139363927
+        },
+        "subset": "valid",
+        "time_run": 1763757535.532038
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "43ee8126f990a7ca4269524c111c7daf",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/datasets/training_data/MMP_tox21_curMoe.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "/Users/echun/repos/DILI-rotation/datasets/results"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": null
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "5b27db4f-94ee-4143-818d-4b62cd49fcbf",
+        "prediction_results": {
+            "accuracy_score": 0.8070866141732284,
+            "bal_accuracy": 0.6421443517049504,
+            "confusion_matrix": [
+                [
+                    [
+                        743,
+                        55
+                    ],
+                    [
+                        141,
+                        77
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.43299978391345134,
+            "kappa": 0.3318660081597594,
+            "matthews_cc": 0.3471172505193567,
+            "npv": 0.8404977375565611,
+            "num_compounds": 1016,
+            "prc_auc_score": 0.5484767224135474,
+            "precision": 0.5833333333333334,
+            "recall_score": 0.3532110091743119,
+            "roc_auc_score": 0.8089259846864869
+        },
+        "subset": "test",
+        "time_run": 1763757535.532038
+    }
+]

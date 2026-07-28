@@ -1,0 +1,278 @@
+{
+    "descriptor_specific": {
+        "descriptor_bucket": "public",
+        "descriptor_key": null,
+        "descriptor_type": "rdkit_raw"
+    },
+    "model_parameters": {
+        "ampl_version": "1.7.0",
+        "class_number": 2,
+        "featurizer": "computed_descriptors",
+        "hyperparam_uuid": null,
+        "max_invalid_pred_frac": 0.01,
+        "model_bucket": "public",
+        "model_choice_score_type": "roc_auc",
+        "model_type": "RF",
+        "num_model_tasks": 1,
+        "prediction_type": "classification",
+        "sampling_k_neighbors": 5,
+        "sampling_ratio": "auto",
+        "save_results": false,
+        "system": "twintron-blue",
+        "time_generated": 1782156792.1440341,
+        "transformer_bucket": "",
+        "transformer_key": "TEST/CellCount_hits_dn_class_cur/RF_computed_descriptors_scaffold_classification/2adf4383-8fc6-4772-beec-eacfc4994fc6/transformers.pkl",
+        "transformer_oid": "",
+        "transformers": true,
+        "uncertainty": false
+    },
+    "model_uuid": "2adf4383-8fc6-4772-beec-eacfc4994fc6",
+    "rf_specific": {
+        "rf_estimators": 73,
+        "rf_max_depth": 6,
+        "rf_max_features": 35
+    },
+    "seed": 4049095238,
+    "splitting_parameters": {
+        "base_splitter": "scaffold",
+        "butina_cutoff": 0.6,
+        "cutoff_date": null,
+        "date_col": null,
+        "mtss_num_generations": 20,
+        "mtss_num_pop": 100,
+        "mtss_num_super_scaffolds": 40,
+        "mtss_response_distr_weight": 1.0,
+        "mtss_split_fraction_weight": 1.0,
+        "mtss_train_test_dist_weight": 1.0,
+        "mtss_train_valid_dist_weight": 1.0,
+        "num_folds": 5,
+        "previously_split": true,
+        "split_strategy": "k_fold_cv",
+        "split_test_frac": 0.1,
+        "split_uuid": "f203283d-5ba0-4912-b868-d3e3fd7db4fb",
+        "split_valid_frac": 0.1,
+        "splitter": "scaffold"
+    },
+    "time_built": 1782156792.144298,
+    "training_dataset": {
+        "bucket": "public",
+        "dataset_hash": "9d1a692301338c7405c5257864ef5b1f",
+        "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/training_data/CellCount_hits_dn_class_cur.csv",
+        "dataset_metadata": {},
+        "dataset_oid": null,
+        "datastore": false,
+        "external_export_parameters": {
+            "result_dir": "TEST"
+        },
+        "feature_transform_type": "normalization",
+        "id_col": "compound_id",
+        "production": false,
+        "response_cols": [
+            "active"
+        ],
+        "response_transform_type": "normalization",
+        "smiles_col": "base_rdkit_smiles",
+        "weight_transform_type": "balancing"
+    },
+    "training_metrics": [
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "9d1a692301338c7405c5257864ef5b1f",
+                "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/training_data/CellCount_hits_dn_class_cur.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "TEST"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "2adf4383-8fc6-4772-beec-eacfc4994fc6",
+            "prediction_results": {
+                "accuracy_score": 0.7764932562620424,
+                "bal_accuracy": 0.8508997429305913,
+                "confusion_matrix": [
+                    [
+                        [
+                            273,
+                            116
+                        ],
+                        [
+                            0,
+                            130
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.43671496452241454,
+                "invalid_prediction_count": 0,
+                "invalid_prediction_fraction": 0.0,
+                "invalid_prediction_threshold": 0.01,
+                "kappa": 0.5410720819612147,
+                "matthews_cc": 0.6089906789104509,
+                "npv": 1.0,
+                "num_compounds": 519,
+                "prc_auc_score": 0.9179649589370602,
+                "precision": 0.5284552845528455,
+                "recall_score": 1.0,
+                "roc_auc_score": 0.9614674050061683,
+                "roc_auc_std": 0.011227615217064325,
+                "task_invalid_prediction_counts": [
+                    0
+                ],
+                "task_invalid_prediction_fractions": [
+                    0.0
+                ]
+            },
+            "subset": "train",
+            "time_run": 1782156792.155253
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "9d1a692301338c7405c5257864ef5b1f",
+                "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/training_data/CellCount_hits_dn_class_cur.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "TEST"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "2adf4383-8fc6-4772-beec-eacfc4994fc6",
+            "prediction_results": {
+                "accuracy_score": 0.5838150289017341,
+                "bal_accuracy": 0.5917638916353569,
+                "confusion_matrix": [
+                    [
+                        [
+                            224,
+                            165
+                        ],
+                        [
+                            51,
+                            79
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.7036909517571113,
+                "invalid_prediction_count": 0,
+                "invalid_prediction_fraction": 0.0,
+                "invalid_prediction_threshold": 0.01,
+                "kappa": 0.1420568472288123,
+                "matthews_cc": 0.1593261404301692,
+                "model_choice_score": 0.6210104805220487,
+                "npv": 0.8145454545454546,
+                "num_compounds": 519,
+                "prc_auc_score": 0.35206190652893093,
+                "precision": 0.3237704918032787,
+                "recall_score": 0.6076923076923076,
+                "roc_auc_score": 0.6094932826499877,
+                "roc_auc_std": 0.04021201666756715,
+                "task_invalid_prediction_counts": [
+                    0
+                ],
+                "task_invalid_prediction_fractions": [
+                    0.0
+                ]
+            },
+            "subset": "valid",
+            "time_run": 1782156792.1552541
+        },
+        {
+            "input_dataset": {
+                "bucket": "public",
+                "dataset_hash": "9d1a692301338c7405c5257864ef5b1f",
+                "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/training_data/CellCount_hits_dn_class_cur.csv",
+                "dataset_metadata": {},
+                "dataset_oid": null,
+                "datastore": false,
+                "external_export_parameters": {
+                    "result_dir": "TEST"
+                },
+                "feature_transform_type": "normalization",
+                "id_col": "compound_id",
+                "production": false,
+                "response_cols": [
+                    "active"
+                ],
+                "response_transform_type": "normalization",
+                "smiles_col": "base_rdkit_smiles",
+                "weight_transform_type": "balancing"
+            },
+            "label": "best",
+            "metrics_type": "training",
+            "model_uuid": "2adf4383-8fc6-4772-beec-eacfc4994fc6",
+            "prediction_results": {
+                "accuracy_score": 0.46551724137931033,
+                "bal_accuracy": 0.6014492753623188,
+                "confusion_matrix": [
+                    [
+                        [
+                            17,
+                            29
+                        ],
+                        [
+                            2,
+                            10
+                        ]
+                    ]
+                ],
+                "cross_entropy": 0.7713686961564733,
+                "invalid_prediction_count": 0,
+                "invalid_prediction_fraction": 0.0,
+                "invalid_prediction_threshold": 0.01,
+                "kappa": 0.11078140454995045,
+                "matthews_cc": 0.17512146423278033,
+                "npv": 0.8947368421052632,
+                "num_compounds": 58,
+                "prc_auc_score": 0.3439925896175896,
+                "precision": 0.2564102564102564,
+                "recall_score": 0.8333333333333334,
+                "roc_auc_score": 0.5894927536231884,
+                "roc_auc_std": 0.048211555951702956,
+                "task_invalid_prediction_counts": [
+                    0
+                ],
+                "task_invalid_prediction_fractions": [
+                    0.0
+                ]
+            },
+            "subset": "test",
+            "time_run": 1782156792.1552541
+        }
+    ],
+    "transformer_specific": {
+        "imputer_strategy": "mean",
+        "powertransformer_method": "yeo-johnson",
+        "powertransformer_standardize": true,
+        "robustscaler_quartile_range": [
+            25.0,
+            75.0
+        ],
+        "robustscaler_unit_variance": false,
+        "robustscaler_with_centering": true,
+        "robustscaler_with_scaling": true
+    }
+}

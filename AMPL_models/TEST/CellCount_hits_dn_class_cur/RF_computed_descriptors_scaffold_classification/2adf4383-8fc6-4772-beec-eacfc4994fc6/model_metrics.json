@@ -1,0 +1,189 @@
+[
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "9d1a692301338c7405c5257864ef5b1f",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/training_data/CellCount_hits_dn_class_cur.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "TEST"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "2adf4383-8fc6-4772-beec-eacfc4994fc6",
+        "prediction_results": {
+            "accuracy_score": 0.7764932562620424,
+            "bal_accuracy": 0.8508997429305913,
+            "confusion_matrix": [
+                [
+                    [
+                        273,
+                        116
+                    ],
+                    [
+                        0,
+                        130
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.43671496452241454,
+            "invalid_prediction_count": 0,
+            "invalid_prediction_fraction": 0.0,
+            "invalid_prediction_threshold": 0.01,
+            "kappa": 0.5410720819612147,
+            "matthews_cc": 0.6089906789104509,
+            "npv": 1.0,
+            "num_compounds": 519,
+            "prc_auc_score": 0.9179649589370602,
+            "precision": 0.5284552845528455,
+            "recall_score": 1.0,
+            "roc_auc_score": 0.9614674050061683,
+            "roc_auc_std": 0.011227615217064325,
+            "task_invalid_prediction_counts": [
+                0
+            ],
+            "task_invalid_prediction_fractions": [
+                0.0
+            ]
+        },
+        "subset": "train",
+        "time_run": 1782156792.155253
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "9d1a692301338c7405c5257864ef5b1f",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/training_data/CellCount_hits_dn_class_cur.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "TEST"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "2adf4383-8fc6-4772-beec-eacfc4994fc6",
+        "prediction_results": {
+            "accuracy_score": 0.5838150289017341,
+            "bal_accuracy": 0.5917638916353569,
+            "confusion_matrix": [
+                [
+                    [
+                        224,
+                        165
+                    ],
+                    [
+                        51,
+                        79
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.7036909517571113,
+            "invalid_prediction_count": 0,
+            "invalid_prediction_fraction": 0.0,
+            "invalid_prediction_threshold": 0.01,
+            "kappa": 0.1420568472288123,
+            "matthews_cc": 0.1593261404301692,
+            "model_choice_score": 0.6210104805220487,
+            "npv": 0.8145454545454546,
+            "num_compounds": 519,
+            "prc_auc_score": 0.35206190652893093,
+            "precision": 0.3237704918032787,
+            "recall_score": 0.6076923076923076,
+            "roc_auc_score": 0.6094932826499877,
+            "roc_auc_std": 0.04021201666756715,
+            "task_invalid_prediction_counts": [
+                0
+            ],
+            "task_invalid_prediction_fractions": [
+                0.0
+            ]
+        },
+        "subset": "valid",
+        "time_run": 1782156792.1552541
+    },
+    {
+        "input_dataset": {
+            "bucket": "public",
+            "dataset_hash": "9d1a692301338c7405c5257864ef5b1f",
+            "dataset_key": "/Users/echun/repos/DILI-rotation/AMPL_models/datasets/training_data/CellCount_hits_dn_class_cur.csv",
+            "dataset_metadata": {},
+            "dataset_oid": null,
+            "datastore": false,
+            "external_export_parameters": {
+                "result_dir": "TEST"
+            },
+            "feature_transform_type": "normalization",
+            "id_col": "compound_id",
+            "production": false,
+            "response_cols": [
+                "active"
+            ],
+            "response_transform_type": "normalization",
+            "smiles_col": "base_rdkit_smiles",
+            "weight_transform_type": "balancing"
+        },
+        "label": "best",
+        "metrics_type": "training",
+        "model_uuid": "2adf4383-8fc6-4772-beec-eacfc4994fc6",
+        "prediction_results": {
+            "accuracy_score": 0.46551724137931033,
+            "bal_accuracy": 0.6014492753623188,
+            "confusion_matrix": [
+                [
+                    [
+                        17,
+                        29
+                    ],
+                    [
+                        2,
+                        10
+                    ]
+                ]
+            ],
+            "cross_entropy": 0.7713686961564733,
+            "invalid_prediction_count": 0,
+            "invalid_prediction_fraction": 0.0,
+            "invalid_prediction_threshold": 0.01,
+            "kappa": 0.11078140454995045,
+            "matthews_cc": 0.17512146423278033,
+            "npv": 0.8947368421052632,
+            "num_compounds": 58,
+            "prc_auc_score": 0.3439925896175896,
+            "precision": 0.2564102564102564,
+            "recall_score": 0.8333333333333334,
+            "roc_auc_score": 0.5894927536231884,
+            "roc_auc_std": 0.048211555951702956,
+            "task_invalid_prediction_counts": [
+                0
+            ],
+            "task_invalid_prediction_fractions": [
+                0.0
+            ]
+        },
+        "subset": "test",
+        "time_run": 1782156792.1552541
+    }
+]

@@ -1,0 +1,29 @@
+{
+    "dataset_key": "/Users/echun/repos/DILI-rotation/datasets_ST/MMP/MMPclean_no_descriptors.csv",
+    "id_col": "compound_id",
+    "response_cols": [
+        "active"
+    ],
+    "seed": 99182566,
+    "smiles_col": "base_rdkit_smiles",
+    "splitting_metadata": {
+        "base_splitter": "scaffold",
+        "butina_cutoff": 0.6,
+        "cutoff_date": null,
+        "date_col": null,
+        "mtss_num_generations": 20,
+        "mtss_num_pop": 100,
+        "mtss_num_super_scaffolds": 40,
+        "mtss_response_distr_weight": 1.0,
+        "mtss_split_fraction_weight": 1.0,
+        "mtss_train_test_dist_weight": 1.0,
+        "mtss_train_valid_dist_weight": 1.0,
+        "num_folds": 5,
+        "previously_split": false,
+        "split_strategy": "train_valid_test",
+        "split_test_frac": 0.15,
+        "split_uuid": "b7c197e3-117d-4cb6-90bf-431fc7656e17",
+        "split_valid_frac": 0.15,
+        "splitter": "scaffold"
+    }
+}

@@ -1,0 +1,2 @@
+bucket_name,dataset_key,dataset_name,response_cols,collection,scaffold_split_uuid
+public,/Users/echun/repos/DILI-rotation/AMPL_models/datasets/missing_actives/MMP_active_missing.csv,MMP,active,SUP,8507d7de-0beb-4c8b-9f3b-26f7d34293d3
